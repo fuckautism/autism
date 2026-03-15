@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link rel="stylesheet" type="text/css" href="styles.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="icon" type="image/x-icon" href="./assets/favico/default.ico">
+</head>
+<body class="custom-cursor">
+  <div id="terminal" class="custom-cursor">
+    <div id="terminal-header">
+      <div id="terminal-buttons">
+        <div class="terminal-button" id="close-button"></div>
+        <div class="terminal-button" id="minimize-button"></div>
+        <div class="terminal-button" id="maximize-button"></div>
+      </div>
+    </div>
+    <div id="terminal-content">
+      <p id="terminal-text"></p>
+    </div>
+  </div>
+  <div id="video-background">
+    <video autoplay muted loop id="myVideo">
+      <source src="./assets/back/default.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div id="audio-background">
+      <audio autoplay loop id="myAudio">
+        <source src="./assets/music/default.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div id="blurred-box">
+      <img id="profile-picture" src="./assets/pfp/default.jpg" alt="Profile Picture">
+      <img id="avatar-frame" src="" alt="Avatar Frame">
+      <p id="username" style="color: white; font-weight: bold; font-size: large;">Александр autism!</p>
+      <div class="user-description">
+        <p id="user-description" style="color: white;">Я пидорас✅✅✅✅</p>
+        <p id="user-description" style="color: white;">tg: t.me/jeibuck</p>
+      </div>
+      <div class="links">
+        <a href="https://github.com/fuckautism" target="_blank">
+          <i class="fab fa-github"></i> 
+        </a> 
+        <a href="https://yoomoney.ru/to/4100119472292991" target="_blank">
+          <i class="fas fa-wallet"></i> 
+        </a> 
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/title.js"></script>
+</body>
+</html>
